@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 import { Toaster, toaster } from "@/components/ui/toaster"
 
-
 const JsonFormatter: React.FC = () => {
   const [input, setInput] = useState<string>('');
   const [output, setOutput] = useState<string>('');
@@ -39,7 +38,7 @@ const JsonFormatter: React.FC = () => {
 
   return (
     <Box maxWidth="800px" mx="auto" p={6}>
-      <Heading as="h1" size="lg" mb={4} textAlign="center">
+      <Heading as="h1" size="2xl" mb={4} textAlign="center">
         JSON Formatter
       </Heading>
       <Text mb={4} textAlign="center">
